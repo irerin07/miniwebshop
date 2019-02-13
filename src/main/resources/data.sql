@@ -1,0 +1,16 @@
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (1, '민경수', 'irerin07', 'counterchord89@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 126-503', '01027488850');
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (2, '김철수', 'irerin01', 'counterchord1@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 121-103', '01027488851');
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (3, '박영수', 'irerin02', 'counterchord2@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 122-203', '01027488852');
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (4, '이민수', 'irerin03', 'counterchord3@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 123-303', '01027488853');
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (5, '최연수', 'irerin04', 'counterchord4@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 124-403', '01027488854');
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (6, '오달수', 'irerin05', 'counterchord5@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 125-603', '01027488855');
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (7, '송한수', 'irerin06', 'counterchord6@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 127-703', '01027488856');
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (8, '여현수', 'irerin08', 'counterchord7@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 128-803', '01027488857');
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (9, '서진수', 'irerin09', 'counterchord8@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 129-903', '01027488858');
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (10, '정지수', 'irerin10', 'counterchord9@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 130-1003', '01027488859');
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (11, '권혁수', 'irerin11', 'counterchord10@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 131-1103', '01027488860');
+insert into users(id, name, nickname, email, passwd, regdate, address, contact_number) values (12, '표영수', 'irerin12', 'counterchord11@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 132-1203', '01027488861');
+
+
+insert into roles(id, name) values(1, 'ADMIM');
+insert into roles(id, name) values(2, 'USER');
