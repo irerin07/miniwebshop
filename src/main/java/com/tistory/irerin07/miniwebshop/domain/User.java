@@ -6,6 +6,7 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.util.Date;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -36,7 +37,7 @@ public class User {
     private String address;
 
     @Column(length = 20)
-    private String contact_number;
+    private String contactNumber;
 
     @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinTable(name = "user_roles",
@@ -44,6 +45,13 @@ public class User {
             inverseJoinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "id")}
     )
     private Set<Role> roles;
+
+    @OneToMany(mappedBy = "user")
+    private List<OrderHistory> orderHistoryList;
+
+    @OneToMany(mappedBy = "user")
+    private List<Cart> cartList;;
+
 
     public User(){
         regdate = new Date();
